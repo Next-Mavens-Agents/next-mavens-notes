@@ -1,0 +1,16 @@
+{
+  "name": "next-mavens-notes",
+  "version": "1.0.0",
+  "description": "Next Mavens Notes - A simple, beautiful notes app",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve . -p 3000",
+    "deploy": "vercel --prod"
+  },
+  "keywords": ["notes", "productivity", "next-mavens"],
+  "author": "Next Mavens",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.2.0"
+  }
+}
